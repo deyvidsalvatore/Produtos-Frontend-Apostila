@@ -1,0 +1,21 @@
+/* Define o estilo do elemento <footer> */
+footer {
+  position: absolute; /* Define a posição como absoluta */
+  bottom: 0; /* Coloca o footer no final do viewport */
+  left: 0; /* Alinha o footer à esquerda */
+  width: 100%; /* Define a largura como 100% para ocupar a largura total */
+  display: flex; /* Utiliza o modelo flexbox para organizar o conteúdo */
+  align-items: center; /* Centraliza verticalmente o conteúdo */
+  justify-content: center; /* Centraliza horizontalmente o conteúdo */
+  background-color: blueviolet; /* Define a cor de fundo como azul violeta */
+  height: 60px; /* Define a altura do elemento (exemplo com 60px) */
+  color: #fff; /* Define a cor do texto como branco */
+  border-top: 3px solid blueviolet; /* Adiciona uma borda superior de 3px */
+  border-bottom: 3px solid blueviolet; /* Adiciona uma borda inferior de 3px */
+  margin: 0; /* Remove margens para eliminar qualquer espaço em branco */
+}
+
+/* Define um estilo para os elementos <span> dentro do <footer> */
+footer span {
+  font-weight: bold; /* Define a fonte como negrito para o texto dentro do <span> */
+}

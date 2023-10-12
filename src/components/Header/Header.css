@@ -1,0 +1,30 @@
+/* Este seletor aplica estilos ao contêiner do cabeçalho */
+.container-Header {
+  display: flex; /* Usa um layout flexível para organizar os elementos filhos */
+  justify-content: space-around; /* Distribui o espaço igualmente entre os elementos filhos */
+  align-items: center; /* Centraliza verticalmente os elementos filhos */
+  width: 100%; /* Define a largura do contêiner para 100% da largura do pai */
+  height: 80px; /* Define a altura do contêiner como 80 pixels */
+  background-color: blueviolet; /* Define a cor de fundo como azul-violeta */
+}
+/* Estilos para todas as imagens dentro do contêiner do cabeçalho */
+img {
+  width: 100px; /* Define a largura das imagens como 100 pixels */
+}
+/* Estilos para elementos com a classe "logo" */
+.logo {
+  text-decoration: none; /* Remove a decoração de texto (sublinhado) */
+  cursor: pointer; /* Define um cursor de ponteiro ao passar o mouse */
+  font-size: 30px; /* Define o tamanho da fonte como 30 pixels */
+  color: white; /* Define a cor do texto como branco */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+}
+/* Estilos para elementos com a classe "favoritos" */
+.favoritos {
+  text-decoration: none; /* Remove a decoração de texto (sublinhado) */
+  cursor: pointer; /* Define um cursor de ponteiro ao passar o mouse */
+  background-color: white; /* Define a cor de fundo como branca */
+  padding: 10px 14px; /* Define o preenchimento interno do elemento */
+  color: blueviolet; /* Define a cor do texto como azul-violeta */
+  border-radius: 5px; /* Adiciona cantos arredondados com raio de 5 pixels */
+}

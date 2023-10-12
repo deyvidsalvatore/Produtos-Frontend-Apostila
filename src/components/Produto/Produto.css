@@ -1,0 +1,56 @@
+/* Estilos para uma classe chamada .containe-add */
+.containe-add {
+    display: flex; /* Define a exibição como flexível */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+/* Estilos para elementos com a classe .form-group */
+.form-group {
+    padding: 10px 0; /* Adiciona espaço acima e abaixo dos elementos */
+}
+
+/* Estilos para elementos <input> dentro de elementos com a classe .form-group */
+.form-group input {
+    width: 200px; /* Define a largura para 200 pixels */
+    height: 35px; /* Define a altura para 35 pixels */
+}
+/* Estilos para elementos com a classe .btn-aprov */
+.btn-aprov {
+    border-radius: 5px; /* Define bordas arredondadas com raio de 5 pixels */
+    background-color: rgb(255, 255, 255); /* Define a cor de fundo como branco */
+    color: blueviolet; /* Define a cor do texto como azul-violeta */
+    width: 130px; /* Define a largura para 130 pixels */
+    height: 30px; /* Define a altura para 30 pixels */
+    margin: 1px; /* Adiciona uma pequena margem ao redor do elemento */
+    border: none; /* Remove a borda */
+    font-weight: bold; /* Define o texto em negrito */
+    border: 1px solid blueviolet; /* Define uma borda sólida com cor azul-violeta */
+    border-radius: 5px; /* Define bordas arredondadas com raio de 5 pixels */
+    cursor: pointer; /* Muda o cursor para um ponteiro ao passar por cima */
+}
+/* Estilos para todos os elementos <input> */
+input {
+    border: 1px solid blueviolet; /* Define uma borda sólida com cor azul-violeta */
+    border-radius: 5px; /* Define bordas arredondadas com raio de 5 pixels */
+    background-color: white; /* Define a cor de fundo como branco */
+    color: blueviolet; /* Define a cor do texto como azul-violeta */
+}
+/* Estilos para a seção <section> dentro de elementos focados */
+input section:focus-visible {
+    box-shadow: 0 0 0 0; /* Remove qualquer sombra ao focar */
+    border: 0 none; /* Remove a borda ao focar */
+    outline: 0; /* Remove o destaque ao focar */
+}
+/* Estilos para elementos com a classe .btn-cancel */
+.btn-cancel {
+    border-radius: 5px; /* Define bordas arredondadas com raio de 5 pixels */
+    background-color: white; /* Cor de fundo branca */
+    color: red; /* Cor do texto vermelha */
+    width: 130px; /* Define a largura para 130 pixels */
+    height: 30px; /* Define a altura para 30 pixels */
+    margin: 1px; /* Adiciona uma pequena margem ao redor do elemento */
+    border: 1px solid red; /* Define uma borda sólida com cor vermelha */
+    font-weight: bold; /* Define o texto em negrito */
+    border-radius: 5px; /* Define bordas arredondadas com raio de 5 pixels */
+    cursor: pointer; /* Muda o cursor para um ponteiro ao passar por cima */
+}

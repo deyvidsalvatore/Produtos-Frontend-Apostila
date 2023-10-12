@@ -1,0 +1,43 @@
+/* Define um container flex com direção de coluna */
+.list-container {
+  display: flex;
+  flex-direction: column; /* Altera o fluxo para coluna */
+  align-items: center; /* Centraliza verticalmente */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Define uma largura fixa para o elemento com classe .list-group */
+.list-group{
+    width: 800px;
+}
+
+/* Define um estilo flexível para elementos com classe .list-group-item */
+.list-group-item{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+/* Define estilos para tabelas */
+table {
+  width: 50%;
+  border: 1px solid blueviolet;
+  margin-top: 20px; /* Espaçamento superior entre o título e a tabela */
+}
+
+/* Define estilos para cabeçalhos de tabela */
+table th{
+    border-bottom: 1px outset blueviolet;
+}
+
+/* Define estilos para células de tabela */
+table td{
+    text-align: center;
+    height: 20px;
+}
+
+/* Define um espaçamento inferior para tabelas */
+table{
+    padding-bottom: 20px;
+}
